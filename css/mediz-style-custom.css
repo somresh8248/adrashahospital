@@ -288,9 +288,9 @@ ul.mm-listview li{ border-color: #626262; }
 .mediz-main-menu-cart > .mediz-top-cart-count{ color: #ffffff; } 
 .mediz-body .mediz-main-menu-right-button{ color: #ffffff; } 
 .mediz-body .mediz-main-menu-right-button:hover{ color: #d3dced; } 
-.mediz-body .mediz-main-menu-right-button{ background-color: #17449e; } 
-.mediz-body .mediz-main-menu-right-button{ border-color: #17449e; } 
-.mediz-body .mediz-main-menu-right-button:hover{ border-color: #17449e; } 
+.mediz-body .mediz-main-menu-right-button{ background-color: #32a61e; } 
+.mediz-body .mediz-main-menu-right-button{ border-color: #64f31d; } 
+.mediz-body .mediz-main-menu-right-button:hover{ border-color: #3ae527; } 
 .mediz-main-menu-right-button.mediz-style-round-with-shadow{ box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.11); -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.11); }  
 .mediz-page-preload{ background-color: #ffffff; } 
 .mediz-body-outer-wrapper, body.mediz-full .mediz-body-wrapper, .mediz-header-side-content{ background-color: #ffffff; } 
@@ -502,9 +502,9 @@ blockquote, q, pre{ background-color: #f5f5f5; }
 .gdlr-core-opening-hour-item .gdlr-core-opening-hour-close{ color: #c8c8c8; } 
 .gdlr-core-opening-hour-item .gdlr-core-opening-hour-time i{ color: #8a8989; } 
 .gdlr-core-opening-hour-item .gdlr-core-opening-hour-list-item{ border-color: #a6a6a6; } 
-.gdlr-core-personnel-style-grid .gdlr-core-personnel-list-title, .gdlr-core-personnel-style-grid .gdlr-core-personnel-list-title a{ color: #17449e; } 
+.gdlr-core-personnel-style-grid .gdlr-core-personnel-list-title, .gdlr-core-personnel-style-grid .gdlr-core-personnel-list-title a{ color: #229030; } 
 .gdlr-core-personnel-style-grid .gdlr-core-personnel-list-position{ color: #9d9d9d; } 
-.gdlr-core-personnel-style-grid .gdlr-core-personnel-list-divider{ color: #17449e; } 
+.gdlr-core-personnel-style-grid .gdlr-core-personnel-list-divider{ color: #229030; } 
 .gdlr-core-personnel-style-grid.gdlr-core-with-background .gdlr-core-personnel-list-content-wrap{ background-color: #ffffff; } 
 .gdlr-core-personnel-style-modern .gdlr-core-personnel-list-title, .gdlr-core-personnel-style-modern .gdlr-core-personnel-list-title a{ color: #ffffff; } 
 .gdlr-core-personnel-style-modern .gdlr-core-personnel-list-position{ color: #ffffff; }.gdlr-core-personnel-style-modern .gdlr-core-social-network-item a{ color: #ffffff; } 
@@ -685,3 +685,53 @@ span.woocommerce-Price-amount.amount{ color: #707070; }.mediz-top-cart-content-w
 .gdlr-core-page-builder-body [data-skin="Clinic Contact Newsletter"] *, .gdlr-core-page-builder-body [data-skin="Clinic Contact Newsletter"] .gdlr-core-skin-border{ border-color: #f3f3f3 }.gdlr-core-page-builder-body [data-skin="Clinic Contact Newsletter"] input:not([type="button"]):not([type="submit"]):not([type="reset"]){ border-color: #f3f3f3; }.gdlr-core-page-builder-body [data-skin="Clinic Contact Newsletter"] .gdlr-core-product-grid-4:hover .gdlr-core-product-title{ border-color: #f3f3f3; }
 
 .mediz-item-mgb, .gdlr-core-item-mgb{ margin-bottom: 40px; }.mediz-body .gdlr-core-testimonial-item .gdlr-core-flexslider.gdlr-core-with-outer-frame-element .flex-viewport, .mediz-body .gdlr-core-personnel-item .gdlr-core-flexslider.gdlr-core-with-outer-frame-element .flex-viewport, .mediz-body .gdlr-core-hover-box-item .gdlr-core-flexslider.gdlr-core-with-outer-frame-element .flex-viewport,.mediz-body .gdlr-core-portfolio-item .gdlr-core-flexslider.gdlr-core-with-outer-frame-element .flex-viewport, .mediz-body .gdlr-core-product-item .gdlr-core-flexslider.gdlr-core-with-outer-frame-element .flex-viewport, .mediz-body .gdlr-core-blog-item .gdlr-core-flexslider.gdlr-core-with-outer-frame-element .flex-viewport{ padding-top: 39px; margin-top: -39px; padding-right: 39px; margin-right: -39px; padding-left: 39px; margin-left: -39px; padding-bottom: 39px; margin-bottom: -39px; }
+.single-counter{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 3px 4px 15px #00000026;
+border-radius: 10px;
+	padding: 30px;
+}
+.single-counter i {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background:#1E0B9B;
+	border-radius: 50%;
+	margin-bottom: 30px;
+	color:#fff;
+	font-size: 40px;
+	line-height: 80px;
+}
+.single-counter img{
+	margin-bottom: 10px;
+}
+.count {
+	font-size: 35px;
+	color: #43e11c;
+	font-family:'Titillium Web', sans-serif;
+	font-weight: 700;
+	margin-bottom: 13px;
+	line-height: 1;
+	display: inline-block;
+}
+.counter small {
+	font-size: 35px;
+	font-weight: 700;
+	color: #43e11c;
+	line-height: 1;
+	position: relative;
+	font-family:'Titillium Web', sans-serif;
+}
+.single-counter p {
+font-size: 16px;
+margin-bottom: 0;
+	color: #013243;
+}
+.single-counter .line {
+	display: inline-block;
+	width: 1px;
+	height: 50px;
+	background: #1e0b9b;
+	margin-bottom: -5px;
+	margin-top: 10px;
+}

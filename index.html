@@ -21,6 +21,7 @@
     <link rel='stylesheet' href='plugins/google-map-plugin/assets/css/frontend.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/style-core.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/mediz-style-custom.css' type='text/css' media='all' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin-ext%2Cdevanagari%2Clatin%2Cvietnamese%2Ccyrillic%2Ccyrillic-ext&amp;display=optional&amp;ver=5.3.2' type='text/css' media='all' />
@@ -29,7 +30,57 @@
 
 
 </head>
-
+<style>/* 12. counter */
+    .single-counter{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 4px 15px #00000026;
+    border-radius: 10px;
+        padding: 30px;
+    }
+    .single-counter i {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        background:#1E0B9B;
+        border-radius: 50%;
+        margin-bottom: 30px;
+        color:#fff;
+        font-size: 40px;
+        line-height: 80px;
+    }
+    .single-counter img{
+        margin-bottom: 10px;
+    }
+    .count {
+        font-size: 35px;
+        color: #43e11c;
+        font-family:'Titillium Web', sans-serif;
+        font-weight: 700;
+        margin-bottom: 13px;
+        line-height: 1;
+        display: inline-block;
+    }
+    .counter small {
+        font-size: 35px;
+        font-weight: 700;
+        color: #43e11c;
+        line-height: 1;
+        position: relative;
+        font-family:'Titillium Web', sans-serif;
+    }
+    .single-counter p {
+    font-size: 16px;
+    margin-bottom: 0;
+        color: #013243;
+    }
+    .single-counter .line {
+        display: inline-block;
+        width: 1px;
+        height: 50px;
+        background: #1e0b9b;
+        margin-bottom: -5px;
+        margin-top: 10px;
+    }</style>
 <body class="home page-template-default page page-id-7684 theme-mediz gdlr-core-body woocommerce-no-js mediz-body mediz-body-front mediz-full  mediz-with-sticky-navigation  mediz-sticky-navigation-no-logo  mediz-blockquote-style-1 gdlr-core-link-to-lightbox" data-home-url="index.html">
     <div class="mediz-mobile-header-wrap">
         <div class="mediz-mobile-header mediz-header-background mediz-style-slide mediz-sticky-mobile-navigation " id="mediz-mobile-header">
@@ -73,8 +124,8 @@
                                                 <li class="menu-item"><a href="our-services-3.html">Our Services 3</a></li>
                                             </ul> -->
                                         </li>
-                                        <!-- <li class="menu-item menu-item-has-children"><a href="our-services.html">Our Services</a>
-                                            <ul class="sub-menu">
+                                        <li class="menu-item menu-item-home current-menu-item page_item page-item-7684 current_page_item"><a href="our-services.html">Our Services</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li class="menu-item"><a href="#">Menu Item</a></li>
                                                 <li class="menu-item menu-item-has-children"><a href="#">Our Services</a>
                                                     <ul class="sub-menu">
@@ -105,8 +156,8 @@
                                                         <li class="menu-item"><a href="our-services-3.html">Our Services 3</a></li>
                                                     </ul>
                                                 </li>
-                                            </ul>
-                                        </li> -->
+                                            </ul> -->
+                                        </li>
                                         <li class="menu-item menu-item-home current-menu-item page_item page-item-7684 current_page_item "><a href="team-plain-style.html">Our Team</a>
                                             <!-- <ul class="sub-menu">
                                                 <li class="menu-item"><a href="our-doctor.html">Our Doctor</a></li>
@@ -247,8 +298,8 @@
                                         <li class="menu-item" data-size="60"><a href="our-services-3.html">Our Services 3</a></li> -->
                                     </ul>
                                 </li>
-                                <!-- <li class="menu-item menu-item-has-children mediz-mega-menu"><a href="index.html" class="sf-with-ul-pre">Our Services</a>
-                                    <div class="sf-mega sf-mega-full" style=" background-image: url('upload/mega-nav-bg.jpg');  background-position: top left;  background-repeat: no-repeat; ">
+                                <li class="menu-item menu-item-has-children mediz-mega-menu"><a href="our-services.html" class="sf-with-ul-pre">Our Services</a>
+                                    <!-- <div class="sf-mega sf-mega-full" style=" background-image: url('upload/mega-nav-bg.jpg');  background-position: top left;  background-repeat: no-repeat; ">
                                         <ul class="sub-menu">
                                             <li class="menu-item" data-size="15">
                                                 <div class="mediz-mega-menu-section-content"><span class="gdlr-core-space-shortcode" style="margin-top: 140px ;"></span>
@@ -287,8 +338,8 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </div>
-                                </li> -->
+                                    </div> -->
+                                </li>
                                 <li class="menu-item menu-item-has-children  mediz-normal-menu"><a href="team-plain-style.html" class="sf-with-ul-pre">Our Team</a>
                                     <!-- <ul class="sub-menu">
                                         <li class="menu-item" data-size="60"><a href="our-doctor.html">Our Doctor</a></li>
@@ -360,7 +411,7 @@
                             <div class="mediz-navigation-slide-bar  mediz-navigation-slide-bar-style-2" data-size-offset="0" id="mediz-navigation-slide-bar"></div>
                         </div>
                         <div class="mediz-main-menu-right-wrap clearfix ">
-                            <div class="mediz-main-menu-search" id="mediz-top-search"><i class="icon-magnifier"></i></div>
+                            <!-- <div class="mediz-main-menu-search" id="mediz-top-search"><i class="icon-magnifier"></i></div> -->
                             <div class="mediz-top-search-wrap">
                                 <div class="mediz-top-search-close"></div>
 
@@ -376,7 +427,7 @@
                                 </div>
 
                             </div>
-							<a class="mediz-main-menu-right-button mediz-button-1 mediz-style-round" href="#" target="_self">Contact Now</a>
+                            <a class="mediz-main-menu-right-button mediz-button-1 mediz-style-round" href="#" target="_self" style="text-decoration: none;">Contact Now</a>
 						</div>
                     </div>
                     <!-- mediz-navigation -->
@@ -388,7 +439,7 @@
             <div class="mediz-page-wrapper" id="mediz-page-wrapper">
                 <div class="gdlr-core-page-builder-body">
                     <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
-                        <div class="gdlr-core-pbf-background-wrap" style="background-color: #229030 ;"></div>
+                        <div class="gdlr-core-pbf-background-wrap" ></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
                                 <div class="gdlr-core-pbf-element">
@@ -405,7 +456,7 @@
                                                         </rs-layer>
                                                         <!-- -->
                                                         <rs-layer id="slider-2-slide-3-layer-5" data-type="text" data-rsp_ch="on" data-xy="xo:22px,22px,22px,50px;yo:359px,359px,359px,211px;" data-text="w:normal;s:17;l:28;fw:300;" data-dim="w:548px,548px,548px,377px;h:84px,84px,84px,auto;" data-frame_1="st:770;sR:770;" data-frame_999="o:0;st:w;sR:7930;" style="z-index:13;font-family:Poppins;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                                                            <br />
+                                                            <br/>
                                                         </rs-layer>
                                                         <!-- -->
                                                         <rs-layer id="slider-2-slide-3-layer-6" data-type="text" data-color="#bbd1ff" data-rsp_ch="on" data-xy="xo:21px,21px,21px,50px;yo:297px,297px,297px,162px;" data-text="w:normal;s:34,34,34,24;l:34;fw:300;a:left,left,left,center;" data-frame_1="st:510;sR:510;" data-frame_999="o:0;st:w;sR:8190;" style="z-index:12;font-family:Poppins;">Medical Center in London
@@ -655,7 +706,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gdlr-core-pbf-wrapper " style="box-shadow: 0 20px 45px rgba(0, 0, 0,0.27); -moz-box-shadow: 0 20px 45px rgba(0, 0, 0,0.27); -webkit-box-shadow: 0 20px 45px rgba(0, 0, 0,0.27); margin-right: auto;margin-bottom: -80px;margin-left: auto;padding: 70px 0px 80px 0px;z-index: 9 ;max-width: 1240px ;border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;" data-skin="Mediz A2 Counter">
+                    <!-- <div class="gdlr-core-pbf-wrapper " style="box-shadow: 0 20px 45px rgba(0, 0, 0,0.27); -moz-box-shadow: 0 20px 45px rgba(0, 0, 0,0.27); -webkit-box-shadow: 0 20px 45px rgba(0, 0, 0,0.27); margin-right: auto;margin-bottom: -80px;margin-left: auto;padding: 70px 0px 80px 0px;z-index: 9 ;max-width: 1240px ;border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;" data-skin="Mediz A2 Counter">
                         <div class="gdlr-core-pbf-background-wrap" style="border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;">
                             <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(upload/counter-bg.png) ;background-size: cover ;background-position: center ;" data-parallax-speed="0"></div>
                         </div>
@@ -714,8 +765,52 @@
                                 </div>
                             </div>
                         </div>
+                    </div> -->
+                     <!-- counter-area -->
+            <div class="counter-area pt-100 mb-100" style="background-image:url(img/an-bg/an-bg04.png); background-repeat: no-repeat; background-size: contain;margin-bottom: 100px;">
+                <div class="container">
+                    <div class="row align-items-end">
+                         <div class="col-lg-3 col-md-6 col-sm-12">
+                           <div class="single-counter text-center" >
+							 <img src="upload/icon/cunt-icon01.png" alt="img">
+                                <div class="counter p-relative">
+                                    <span class="count">500</span><small>+</small>                                   
+                                </div>
+                                <p>Doctors At Work</p>                               
+                            </div>
+                        </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="single-counter text-center" >
+								<img src="upload/icon/cunt-icon02.png" alt="img">
+                                <div class="counter p-relative">
+                                    <span class="count">58796</span><small>+</small>                                   
+                                </div>
+                                <p>Happy Patients</p>                               
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="single-counter text-center" >
+								 <img src="upload/icon/cunt-icon03.png" alt="img">
+                                <div class="counter p-relative">
+                                   <span class="count">500</span><small>+</small>                       
+                                </div>
+                                <p>Medical Beds</p>                               
+                            </div>
+                        </div>
+                         <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="single-counter text-center" >
+								 <img src="upload/icon/cunt-icon04.png" alt="img">
+                                <div class="counter p-relative">
+                                    <span class="count">200</span><small>+</small>                      
+                                </div>
+                                <p>Winning Awards</p>                                
+                            </div>
+                        </div>
                     </div>
-                    <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;" data-skin="Mediz HP Column SVS MId">
+                </div>
+            </div>
+            <!-- counter-area-end -->
+                    <!-- <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;" data-skin="Mediz HP Column SVS MId">
                         <div class="gdlr-core-pbf-background-wrap" style="background-color: #f5f5f5 ;"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
@@ -826,7 +921,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
                         <div class="gdlr-core-pbf-background-wrap" style="background-color: #113989 ;"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
@@ -873,7 +968,7 @@
                                                 <div class="gdlr-core-tab-feature3-content-top-overlay2"></div>
                                                 <div class="gdlr-core-tab-feature3-content-bottom-overlay" style="background: #113989 ;"></div>
                                                 <div class="gdlr-core-container clearfix">
-                                                    <div class="gdlr-core-tab-feature3-top" style="height: 500px ;"><a class="gdlr-core-lightgallery gdlr-core-js gdlr-core-tab-feature3-video-lb" href="https://www.youtube.com/watch?v=KAvQsRL-jeo"><i class="fa fa-play"  ></i></a>
+                                                    <div class="gdlr-core-tab-feature3-top" style="height: 500px ;"><a class="" href=""><i class=""  ></i></a>
                                                         <div class="clear"></div>
                                                     </div>
                                                     <div class="gdlr-core-tab-feature3-content-left gdlr-core-item-pdlr">
@@ -886,7 +981,7 @@
                                                             Modern drug discovery involves the identification of screening hits, medicinal chemistry and optimization of those hits to increase the affinity, selectivity (to reduce the potential of side effects), efficacy/potency, metabolic stability (to increase the half-life), and oral bioavailability. Once a compound that fulfills all of these requirements.
                                                         </div>
                                                         <span class="gdlr-core-space-shortcode" style="margin-top: 35px ;"></span>
-                                                        <a class="gdlr-core-button gdlr-core-button-shortcode  gdlr-core-button-gradient gdlr-core-button-no-border" href="#" target="_blank" style="font-size: 16px ;font-weight: 600 ;letter-spacing: 0px ;padding: 12px 24px 15px 30px;text-transform: none ;margin-right: 20px;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;background: #4D93E9 ;"><span class="gdlr-core-content" >Learn More</span><i class="gdlr-core-pos-right arrow_right" style="font-size: 23px ;"  ></i></a></div>
+                                                        <a class="gdlr-core-button gdlr-core-button-shortcode  gdlr-core-button-gradient gdlr-core-button-no-border" href="about-us.html" target="_blank" style="font-size: 16px ;font-weight: 600 ;letter-spacing: 0px ;padding: 12px 24px 15px 30px;text-transform: none ;margin-right: 20px;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;background: #4D93E9 ;"><span class="gdlr-core-content" >Learn More</span><i class="gdlr-core-pos-right arrow_right" style="font-size: 23px ;"  ></i></a></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-tab-feature3-content-wrap " data-tab-id="2" style="background-image: url(upload/video-featured-2-1.jpg) ;">
@@ -894,7 +989,7 @@
                                                 <div class="gdlr-core-tab-feature3-content-top-overlay2"></div>
                                                 <div class="gdlr-core-tab-feature3-content-bottom-overlay" style="background: #113989 ;"></div>
                                                 <div class="gdlr-core-container clearfix">
-                                                    <div class="gdlr-core-tab-feature3-top" style="height: 500px ;"><a class="gdlr-core-lightgallery gdlr-core-js gdlr-core-tab-feature3-video-lb" href="https://www.youtube.com/watch?v=KAvQsRL-jeo"><i class="fa fa-play"  ></i></a>
+                                                    <div class="gdlr-core-tab-feature3-top" style="height: 500px ;"><a class="" href=""><i class=""  ></i></a>
                                                         <div class="clear"></div>
                                                     </div>
                                                     <div class="gdlr-core-tab-feature3-content-left gdlr-core-item-pdlr">
@@ -915,7 +1010,7 @@
                                                 <div class="gdlr-core-tab-feature3-content-top-overlay2"></div>
                                                 <div class="gdlr-core-tab-feature3-content-bottom-overlay" style="background: #113989 ;"></div>
                                                 <div class="gdlr-core-container clearfix">
-                                                    <div class="gdlr-core-tab-feature3-top" style="height: 500px ;"><a class="gdlr-core-lightgallery gdlr-core-js gdlr-core-tab-feature3-video-lb" href="https://www.youtube.com/watch?v=KAvQsRL-jeo"><i class="fa fa-play"  ></i></a>
+                                                    <div class="gdlr-core-tab-feature3-top" style="height: 500px ;"><a class="" href=""><i class=""  ></i></a>
                                                         <div class="clear"></div>
                                                     </div>
                                                     <div class="gdlr-core-tab-feature3-content-left gdlr-core-item-pdlr">
@@ -936,7 +1031,7 @@
                                                 <div class="gdlr-core-tab-feature3-content-top-overlay2"></div>
                                                 <div class="gdlr-core-tab-feature3-content-bottom-overlay" style="background: #113989 ;"></div>
                                                 <div class="gdlr-core-container clearfix">
-                                                    <div class="gdlr-core-tab-feature3-top" style="height: 500px ;"><a class="gdlr-core-lightgallery gdlr-core-js gdlr-core-tab-feature3-video-lb" href="https://www.youtube.com/watch?v=KAvQsRL-jeo"><i class="fa fa-play"  ></i></a>
+                                                    <div class="gdlr-core-tab-feature3-top" style="height: 500px ;"><a class="" href=""><i class=""  ></i></a>
                                                         <div class="clear"></div>
                                                     </div>
                                                     <div class="gdlr-core-tab-feature3-content-left gdlr-core-item-pdlr">
@@ -1080,10 +1175,10 @@
                                         <div class="gdlr-core-pbf-background-wrap"></div>
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                             <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 12px ;">
+                                                <!-- <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 12px ;">
                                                     <div class="gdlr-core-title-item-title-wrap ">
                                                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 24px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;color: #127a2a ;">Certificates & Standards<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" style="margin-bottom: 50px ;">
@@ -1096,7 +1191,7 @@
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first" id="gdlr-core-column-9175">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                    <!-- <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
                                         <div class="gdlr-core-pbf-background-wrap"></div>
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js " style="max-width: 1200px ;">
                                             <div class="gdlr-core-pbf-element">
@@ -1121,7 +1216,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -1330,7 +1425,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;" data-skin="HP Column SVC Bottom">
+                    <!-- <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;" data-skin="HP Column SVC Bottom">
                         <div class="gdlr-core-pbf-background-wrap"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
@@ -1395,8 +1490,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper " style="padding: 105px 0px 80px 0px;" id="gdlr-core-wrapper-4">
+                    </div> -->
+                    <!-- <div class="gdlr-core-pbf-wrapper " style="padding: 105px 0px 80px 0px;" id="gdlr-core-wrapper-4">
                         <div class="gdlr-core-pbf-background-wrap">
                             <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(upload/testimonial.png) ;background-size: cover ;background-position: top center ;" data-parallax-speed="0"></div>
                         </div>
@@ -1477,7 +1572,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;" data-skin="Mediz A1 Column SVC">
                         <div class="gdlr-core-pbf-background-wrap"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">

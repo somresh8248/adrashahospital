@@ -1959,6 +1959,7 @@ html.mm-opening.mediz-mmenu-right .mediz-mobile-header{ -webkit-transform: trans
 }
 
 @media only screen and (max-width: 767px) {
+	
     #gdlr-core-wrapper-4.gdlr-core-pbf-wrapper {
         padding-top: 80px !important;
         padding-bottom: 50px !important;
