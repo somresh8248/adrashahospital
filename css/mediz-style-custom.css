@@ -177,18 +177,20 @@ body.mediz-boxed .mediz-body-wrapper{ margin-top: 0px; margin-bottom: 0px; }
 .mediz-page-title-wrap.mediz-style-custom .mediz-page-title-content{ padding-top: 110px; } 
 .mediz-page-title-wrap.mediz-style-custom .mediz-page-title-content{ padding-bottom: 110px; } 
 .mediz-page-title-wrap.mediz-style-custom .mediz-page-caption{ margin-top: 17px; } 
-.mediz-page-title-wrap .mediz-page-title{ text-transform: none; } 
+.mediz-page-title-wrap .mediz-page-title{ text-transform: none; margin-left:20px;} 
 .mediz-page-title-wrap.mediz-style-custom .mediz-page-title{ font-size: 47px; } 
 .mediz-page-title-wrap .mediz-page-title{ font-weight: 600; } 
 .mediz-page-title-wrap.mediz-style-custom .mediz-page-title{ letter-spacing: 0px; } 
-.mediz-page-title-wrap .mediz-page-caption{ text-transform: none; } 
-.mediz-page-title-wrap.mediz-style-custom .mediz-page-caption{ font-size: 17px; } 
+.mediz-page-title-wrap .mediz-page-caption{ text-transform: none; margin-left:50px;} 
+.mediz-page-title-wrap.mediz-style-custom .mediz-page-caption{ font-size: 20px; } 
 .mediz-page-title-wrap .mediz-page-caption{ font-weight: 400; } 
 .mediz-page-title-wrap.mediz-style-custom .mediz-page-caption{ letter-spacing: 0px; } 
 .mediz-page-title-wrap .mediz-page-title-top-gradient{ height: 413px; } 
 .mediz-page-title-wrap .mediz-page-title-bottom-gradient{ height: 413px; } 
 .mediz-page-title-wrap .mediz-page-title-overlay{ opacity: 0; } 
-.mediz-page-title-wrap{ background-image: url(../upload/page-title.jpg); } 
+.mediz-page-title-wrap{ background-image: url(../upload/Team.png); } 
+.service{ background-image: url(../upload/Services1.png); } 
+.gallery{ background-image: url(../upload/Gallery.png); } 
 .mediz-not-found-wrap .mediz-not-found-background{ opacity: 0.27; } 
 .mediz-blog-title-wrap.mediz-style-custom .mediz-blog-title-content{ padding-top: 104px; } 
 .mediz-blog-title-wrap.mediz-style-custom .mediz-blog-title-content{ padding-bottom: 105px; } 
@@ -295,7 +297,7 @@ ul.mm-listview li{ border-color: #626262; }
 .mediz-page-preload{ background-color: #ffffff; } 
 .mediz-body-outer-wrapper, body.mediz-full .mediz-body-wrapper, .mediz-header-side-content{ background-color: #ffffff; } 
 body.mediz-boxed .mediz-body-wrapper, .gdlr-core-page-builder .gdlr-core-page-builder-body.gdlr-core-pb-livemode{ background-color: #ffffff; } 
-.mediz-page-title-wrap .mediz-page-title{ color: #ffffff; } 
+.mediz-page-title-wrap .mediz-page-title{ color: #4ea7c3; } 
 .mediz-page-title-wrap .mediz-page-caption{ color: #bbd1ff; }.mediz-page-title-wrap .mediz-page-caption .woocommerce-breadcrumb, .mediz-page-title-wrap .mediz-page-caption .woocommerce-breadcrumb a{ color: #bbd1ff; } 
 .mediz-page-title-wrap .mediz-page-title-overlay{ background-color: #000000; } 
 .mediz-page-title-wrap .mediz-page-title-top-gradient{ background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); background: -o-linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); background: -moz-linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); }.mediz-page-title-wrap .mediz-page-title-bottom-gradient{ background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); background: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); } 
@@ -735,3 +737,4 @@ margin-bottom: 0;
 	margin-bottom: -5px;
 	margin-top: 10px;
 }
+
